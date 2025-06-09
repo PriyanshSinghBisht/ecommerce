@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import "tailwindcss";
+
+@font-face {
+  font-family: "intergral"; /* Choose a unique name for your font */
+  src: url("./fonts/Fontspring-DEMO-integralcf-extrabold.otf")
+    format("opentype");
+}
+@font-face {
+  font-family: "integralBold"; /* Choose a unique name for your font */
+  src: url("./fonts/Fontspring-DEMO-integralcf-bold.otf") format("opentype");
+}
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .pause {
+    animation-play-state: paused;
+  }
+  
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --font-integral-extrabold: "intergral", sans-serif;
+  --font-integral-bold: "integralBold", sans-serif;
+  --animate-carousel: 10s linear infinite carousel;
+
+  @keyframes carousel{
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+}
