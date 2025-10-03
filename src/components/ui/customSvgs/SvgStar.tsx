@@ -5,7 +5,7 @@ const SvgStar = ({ classname }: { classname: string }) => {
     <motion.svg
       initial={{ rotate: 0, scale: 1 }}
       animate={{ rotate: 360 , scale: 2}}
-      transition={{ duration: 10, repeat: Infinity , alternate: true}}
+      transition={{ duration: 10, repeat: Infinity}}
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 100 100"
       width="25"

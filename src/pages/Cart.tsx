@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa6";
 import { Link} from "react-router-dom";
 import Layout from "../Layout";
 import EmptyCartState from "../components/state/EmptyCartState";
-import { useEffect } from "react";
+// import { useEffect } from "react";
 
 const Cart = () => {
   const cartContext = useCart();
@@ -30,9 +30,9 @@ const Cart = () => {
     return <Layout><EmptyCartState /> </Layout>;
   }
 
-  useEffect(()=>{
-    console.log("cart", carts);
-  },[carts]);
+  // useEffect(()=>{
+  //   console.log("cart", carts);
+  // },[carts]);
 
   return (
     <Layout>

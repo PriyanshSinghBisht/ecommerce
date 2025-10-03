@@ -10,7 +10,6 @@ import { FiPlus } from "react-icons/fi";
 import { motion } from "motion/react";
 import { useCart } from "../../hooks/useCart";
 import { Link } from "react-router-dom";
-import { AnimatePresence } from "motion/react"
 
 type productColorType = "bg-green-700" | "bg-purple-700" | "bg-yellow-700";
 const productColos: productColorType[] = [ "bg-green-700", "bg-purple-700", "bg-yellow-700"];

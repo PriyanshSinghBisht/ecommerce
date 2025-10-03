@@ -1,4 +1,3 @@
-import React from 'react'
 import Product from './Product';
 import type { ProductType } from "../utlis/types";
 import { motion } from "motion/react";

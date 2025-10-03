@@ -1,4 +1,3 @@
-import React from "react";
 import type { Review } from "../../utlis/types";
 import StarRating from "../ui/StarRating";
 

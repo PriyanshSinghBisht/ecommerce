@@ -3,8 +3,6 @@ import Home from "./pages/Home";
 import ProductDetails from "./pages/ProductDetails";
 import Category from './pages/Category';
 import Cart from './pages/Cart';
-import Layout from './Layout';
-import CategoryLoadingState from './components/state/loading/CategoryLoadingState';
 
 const App = () => {
   return (

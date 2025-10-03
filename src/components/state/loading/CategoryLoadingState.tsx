@@ -1,4 +1,3 @@
-import React from 'react'
 import TopNav from '../../ui/TopNav'
 import Footer from '../../Footer'
 
